@@ -31,7 +31,7 @@ public class UserProfile
         genre= givenGenre;
         
         System.out.println("Choose favourite from these genres: ");
-        for(int i=0;i<this.genre.length();i++)
+        for(int i=0;i<this.genres.length;i++)
             System.out.println((i+1)+". "+this.genres[i]);
     }
 

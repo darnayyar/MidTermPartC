@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author brinx
  */
 public class TestUserProfile {
-    public static void Main(String[] args)
+    public static void main(String[] args)
     {
         Scanner keyboard=new Scanner(System.in);
         System.out.println("Please enter your name: ");
@@ -20,5 +20,7 @@ public class TestUserProfile {
         
         int choice=keyboard.nextInt();
         prof.setGenre(choice);
+        
+        System.out.println("User Created!");
     }
 }
